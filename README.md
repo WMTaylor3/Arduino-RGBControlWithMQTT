@@ -3,6 +3,7 @@ Controls a set of RGB LED lights, reports status via MQTT for Home Assistant int
 
 This project requires a 'credentials.h' file in order to compile which, for obvious reasons, isn't uploaded here. A sample is included below so create and modify per your setup.
 
+```
 #define WIFI_NAME "My Wifi Name"
 #define WIFI_PASSWORD "My Wifi Password"
 
@@ -12,3 +13,4 @@ This project requires a 'credentials.h' file in order to compile which, for obvi
 #define MQTT_PASSWORD "MQTT password of this node. Used for auth."
 #define MQTT_ID "MQTT ID of this node."
 #define MQTT_TOPIC "topic/for-this-node"
+```
